@@ -1,0 +1,41 @@
+.ProductContainer {
+    flex:0 0 70%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.Checkout {
+    flex: 1;
+}
+.Product {
+    flex:0 0 45%;
+    margin:0 20px 20px 0;
+    border:1px solid #ddd;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 15px;
+}
+.Product p{
+    margin: 0 0 15px 0;
+}
+.item {
+    display: flex;
+    justify-content:flex-start;
+    margin: 0 0 10px 0;
+}
+.btn-light {
+    padding: 0px 8px;
+    font-size: 12px;
+    height: 26px;
+}
+.item span {
+    margin:0 20px 0 0px;
+    flex:0 0 35%;
+} 
+.item div {
+    margin-right: 10px;
+}
